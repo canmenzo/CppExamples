@@ -1,0 +1,89 @@
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit
+
+Please enter your choice ==> 1
+Your choice is "triangle"
+Enter the base of the triangle: 5
+Enter the height of the triangle: 10
+Area = 25.00
+
+ 
+
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit
+
+Please enter your choice ==> 2
+Your choice is "rectangle"
+Enter the length of the rectangle: 5
+Enter the width of the rectangle: 10
+Area = 50.00
+
+ 
+
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit 
+
+Please enter your choice ==> 3
+Your choice is "circle"
+Enter the radius of the circle: 5
+Area = 78.54
+
+ 
+
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit 
+
+Please enter your choice ==> 4
+Your choice is 4
+Invalid Choice: 4
+
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit
+
+Please enter your choice ==> 0
+Your choice is "exit"
+Goodbye!
+
+Welcome to the Area Calculator
+----------------------------------------
+Please enter your choice from the shapes shown below.
+
+1. triangle
+2. rectangle
+3. circle
+0. exit 
+
+Please enter your choice ==> 3
+Your choice is "circle"
+Enter the radius of the circle: -5
+Invalid dimension; radius should be > 0
