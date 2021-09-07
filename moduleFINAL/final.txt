@@ -1,0 +1,13 @@
+snail = invertebrate with hydrostatic skeleton
+snails have radula (a tongue like apparatus used for feeding)
+snails have mantle (an outer skin which can used to generate shell)
+radula length is measured in MilliMeters
+mantle thickness is measured in MilliMeters
+
+mantle and radula values to 0 in default constructor
+after allocating memory
+
+mantle and radula to passed values in the 3-arg constructor
+after allocating memory
+
+destructor must free all allocated memory and reset pointers
