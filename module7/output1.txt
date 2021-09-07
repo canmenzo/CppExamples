@@ -1,0 +1,10 @@
+output
+
+Fruit=0 ("Unknown")
+Fruit=1 ("Apple")
+Fruit=2 ("Banana")
+Fruit=3 ("Grape")
+Fruit=4 ("Orange")
+Fruit=5 ("Tangerine")
+
+default = Unknown

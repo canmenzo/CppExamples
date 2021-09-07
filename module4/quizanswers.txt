@@ -1,0 +1,40 @@
+loop guarantees at least 1 iteration = do
+
+pre increment ++a
+pre decrement --a
+post increment a++
+post decrement a--
+
+count++;
+--count;
+
+int counter = 10;
+int counter2 = ++counter;
+int counter3 = counter2--;
+11,10,11
+
+i < 20; i*=2
+answer = 5
+
+i<20; i--
+anwer = infinite
+
+statment results in a premature exit from loop = break
+
+statement skips the remaining code in loop and jumps back to start = continue
+
+initials expression of a FOR loop is initializing the index variable
+
+i < 5; i++ for 5 iterations
+
+remainder question
+	answer is not while (m/units ==0)
+	also not while (m%units)
+	THE ANSWER IS WHILE (!(M%UNITS))
+
+	the ! operator will result in an evaluation of true as long as (m % units) is 0, or false. If (m % units) is non-zero, it is effeectively true and the while loop condition will fail...mo
+
+header file included in c++ is fstream for file streams
+to create a file and open it for writing = ofstream
+used to open a file for reading = ifstream
+

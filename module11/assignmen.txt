@@ -1,0 +1,29 @@
+Download the "invertebrates.h" class specification file included in this module and use it to implement the Invertebrate class and Spider class specified in that file. Implement these classes in a single file named "invertebrates.cpp", and use the following main function in your solution:
+
+int main()
+{
+    Spider *sp = new Spider("Brown Recluse");
+    sp->print();
+
+    Spider sp2("Black Widow");
+    sp2.print();
+
+    Spider sp3 = *sp; // calls copy constructor
+    sp3.print();
+
+    sp2 = *sp; // calls = overload
+    sp2.print();
+
+    delete sp;
+
+    return 0;
+}
+
+DO NOT redeclare the classes in your .cpp file, you should implement the classes based on the specification in the header (you should be using the scope resolution operator "::" a lot in your solution). Include the header as a preprocessor declaration in your .cpp file, but do not submit the header file content with or in your solution.
+
+Expected output:
+
+Spider: Brown Recluse, number of legs = 8, skeleton type = exoskeleton
+Spider: Black Widow, number of legs = 8, skeleton type = exoskeleton
+Spider: Brown Recluse, number of legs = 8, skeleton type = exoskeleton
+Spider: Brown Recluse, number of legs = 8, skeleton type = exoskeleton
