@@ -1,0 +1,2 @@
+The sum of the even numbers up to 2 is 2
+The sum of the odd numbers up to 2 is 1

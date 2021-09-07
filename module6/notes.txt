@@ -1,0 +1,35 @@
+notes.txt
+
+arrays can be initialized at declaration using braces
+'arrays' cannot be copied by simple assignment
+arrayA = arrayB;
+
+instead use this for loop
+for (int index = 0; index < SIZE; index++)
+	arrayA[index] = arrayB[index];
+
+void showValues(int nums[], int size);
+
+-----------------
+
+quiz
+aeiou = 5
+for loops
+farray= 10
+answer4
+	not int array[10]
+answer5
+	not 1=2.0
+answer8
+	not square3-2
+	not constant
+2nd
+---------
+question 4
+	not int array[10]
+	not x[10] = int
+question 8
+	not 3,2
+	not 2,2
+	not 3,3
+	

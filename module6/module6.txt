@@ -1,0 +1,15 @@
+module6.txt
+
+Write a C++ program which includes a function that removes an array element specified by an index provided by the user. For example, the following program removes element 2 from a 6 element integer array (user input shown in red):
+
+Please enter the element to remove (0 to 5): 2
+Original array:
+10 20 30 40 50 60
+New array:
+10 20 40 50 60
+
+Your main function must pass an array to the element removal function, which must accept the array, the element index to remove, and the array size as parameters.
+
+Hint: one approach is to copy the original array into a temporary array of the same size, but don't include the element to be deleted. Then copy the temporary array (with the element removed) back into the original array. Set the final element to 0 (assuming an int array) since all of the original array elements will have shifted left by one.
+
+Hint 2: If you declare a function which prints the array after passing the variable and size as arguments, call it the second time with the array size argument - 1.

@@ -1,0 +1,40 @@
+
+
+Write a C++ program which reads a positive integer from the user, validates it, then displays the sum of all even values up to and including the value provided by the user, followed by the sum of all odd values up to and including the value provided by the user. Your program must also write the sums to a file named "sums.txt" (do not write any data from the user interaction to the output file) and confirm the write operation at the end of the output (do not write this confirmation to the output file).
+
+use a while loop to validate the user's initial input; if the input value is not valid, warn the user and prompt again.
+use one or more for loops to perform the even and odd sum calculations
+use a named constant for the output file name
+verify the output file is opened before attempting to write to it
+close the output file when done writing
+your code must conform to the course programming assignment rubric
+NOTE: In order to use file streams in Code::Blocks, be sure C++11 is enabled in your compiler settings ("Settings" menu", "Compiler...", check the "Have g++ follow the C++11 ISO C++ language standard" checkbox).
+
+Expected console output (user input in red):
+
+Please enter a positive integer greater than 0: 0
+0 is out of range.
+Please enter a positive integer greater than 0: -1
+-1 is out of range
+Please enter a positive integer greater than 0: 5
+The sum of the even numbers up to 5 is 6
+
+1 + 1 + 2 + 2 + 2 + 2
+2 4
+
+
+1+2+2+2+2+2
+1 3 5
+
+
+The sum of the odd numbers up to 5 is 9
+
+	sums.txt file written!
+
+Expected contents of output file:
+
+The sum of the even numbers up to 5 is 6
+
+The sum of the odd numbers up to 5 is 9
+
+ 
