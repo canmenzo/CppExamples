@@ -1,0 +1,20 @@
+Adapt your Module 3 Ungraded Practice Exercise solution (or use the instructor's posted solution) to use an integer-based main menu to prompt the user for one of three geometric shapes: triangle, rectangle, or circle, or an option to exit the program without entering a shape. Based on the choice, prompt the user for the appropriate shape dimensions as indicated below, then calculate and display the area of the shape using the appropriate formula.
+
+Calculated areas must be displayed as floating point values with 2 places after the decimal point (even if they are zeroes).
+Validate all dimensions (must be > 0); if not valid, display an error message to the user and do not perform the area calculation.
+If the user enters an invalid menu choice display an error message and do not prompt for dimensions or perform any calculations.
+Area Parameters and Formulas
+
+triangle: base, height  (area = 1/2 * base * height)
+rectangle: length, width  (area = length * width)
+circle: radius  (area = PI * r2)
+ 
+
+Use a switch statement to determine the code paths taken for your main menu.
+Your program should only prompt the user once, do not code any loops for repeated prompting. Run your program multiple times to test input.
+Do not code any functions to perform the specified operations; all prompts, input, and calculations must be coded in the main function.
+Use named constants for all menu options (for instance, declare const string STR_EXIT = "exit"; for the exit option, and const int MENU_EXIT = 0; for the numeric menu choice)
+Assume the user will input an integer for your main menu options (this doesn't mean it's a valid menu choice, but it will be an integer).
+Your program should echo the user's choice enclosed in embedded quotes (see sample output below) except for an invalid choice, for which you can simple echo the choice without embedded quotes
+Sample output (the program executes six times, user input is in red):
+
