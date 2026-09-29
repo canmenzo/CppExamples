@@ -16,8 +16,6 @@ My exercises and assignments from an object-oriented programming in C++ course (
 - 📚 `module11` to `module13`, `moduleFINAL`: copy constructors and operator overloading, vectors, lambdas, and the final exam (`Invertebrate` / `Snail`)
 - 🗂️ `codes/`: early copy of the module 3 files plus `odev.cpp`, which writes a student's name and number to a text file; `container.cpp` is a standalone container loading exercise
 
-Each module folder also has the course notes PDF and some Windows builds (`.exe` / `.o`) from when the work was done.
-
 ### 🚀 Quick start
 Every `.cpp` file is its own program. Compile and run one with any C++11 compiler:
 ```bash

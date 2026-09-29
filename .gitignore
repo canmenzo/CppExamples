@@ -1,0 +1,6 @@
+# Build output
+*.exe
+*.o
+
+# Written by codes/odev.cpp at runtime
+ogrenciBilgi.txt
